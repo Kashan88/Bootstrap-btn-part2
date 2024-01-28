@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        button{
+            padding: 10px;
+            border-radius: 5px;
+            letter-spacing: 1px;
+            font-size: 1rem;
+            transition: all .3s ease;
+            cursor: pointer;
+            border: none;
+        }
+        .btn-1{
+            color: white;
+            background-color: #0e6dfd;
+            &:hover{
+                background-color: #145fcf;
+            }
+            &:active{
+                background-color: #1152b3;
+            }
+        }
+        .btn-2{
+            color: white;
+            background-color: #6c757d;
+            &:hover{
+                background-color: #626970;
+            }
+            &:active{
+                background-color: #515558;
+            }
+        }.btn-3{
+            color: white;
+            background-color: #198754;
+            &:hover{
+                background-color: #187a4c;
+            }
+            &:active{
+                background-color: #14643f;
+            }
+        }
+        .btn-4{
+            color: white;
+            background-color: #dc3545;
+            &:hover{
+                background-color: #ca3040;
+            }
+            &:active{
+                background-color: #b81e2d;
+            }
+        }
+        .btn-5{
+            color: white;
+            background-color: #ffc107;
+            &:hover{
+                background-color: #f5cb4c;
+            }
+            &:active{
+                background-color: #ffc107;
+            }
+        }
+        .btn-6{
+            color: white;
+            background-color: #0dcaf0;
+            &:hover{
+                background-color: #29d4f7;
+            }
+            &:active{
+                background-color: #0dcaf0;
+            }
+        }
+        .btn-7{
+            color: white;
+            background-color: #212529;
+            &:hover{
+                background-color: #35383b;
+            }
+            &:active{
+                background-color: #4a4c4e;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <button class="btn-1">Primary</button>
+    <button class="btn-2">Secondary</button>
+    <button class="btn-3">Success</button>
+    <button class="btn-4">Danger</button>
+    <button class="btn-5">Warning</button>
+    <button class="btn-6">Info</button>
+    <button class="btn-7">Dark</button>
+</div>
+</body>
+</html>
